@@ -36,17 +36,17 @@ const Contact = () => {
           <article className='contact__option'>
             <SiMinutemailer className='contact__option-icon'/>
             <h4>Email</h4>
-            <a href="mailto:chitklaus@gmail.com" target="_blank">Send a message</a>
+            <a href="mailto:chitklaus@gmail.com" target="_blank" rel="noreferrer">Send a message</a>
           </article>
           <article className='contact__option'>
             <FaFacebookMessenger className='contact__option-icon'/>
             <h4>Messager</h4>      
-            <a href="https://m.me/chitklaus.lee" target="_blank">Send a message</a>
+            <a href="https://m.me/chitklaus.lee" target="_blank" rel="noreferrer">Send a message</a>
           </article>
           <article className='contact__option'>
             <RiWhatsappFill className='contact__option-icon'/>
             <h4>WhatsApp</h4>
-            <a href="https://wa.me/14373290310" target="_blank">Send a message</a>
+            <a href="https://wa.me/14373290310" target="_blank" rel="noreferrer">Send a message</a>
           </article>
         </div>
         {/* END OF CONTACT OPTIONS */}
