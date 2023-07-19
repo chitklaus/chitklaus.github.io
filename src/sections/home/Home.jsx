@@ -4,6 +4,7 @@ import HeaderImage from '../../assets/me.jpg'
 import data from './data'
 import AOS from 'aos'
 import 'aos/dist/aos.css'
+import { Link } from 'react-router-dom';
 
 const Home = () => {
   useEffect(() => {
@@ -22,8 +23,8 @@ const Home = () => {
         A college student who love coding in Javascript with ReactJS. 
         </p>
         <div className="header__cta">
-          <a href="/contact" className='btn primary'>Let's Talk</a>
-          <a href="/testimonials" className='btn light'>My Work</a>
+          <Link to="/contact" className='btn primary'>Let's Talk</Link>
+          <Link to="/testimonials" className='btn light'>My Work</Link>
         </div>
         <div className="header__socials">
           {
